@@ -86,3 +86,16 @@ echo "Da xoa backup cu"
 # =========================
 
 echo "===== BACKUP HOAN TAT ====="
+
+# =========================
+# BONUS 2
+# TU DONG PUSH GITHUB
+# =========================
+
+cd $PROJECT_DIR
+
+git add .
+
+git commit -m "Auto backup $(date)"
+
+git push origin main
